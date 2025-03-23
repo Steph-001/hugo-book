@@ -1,0 +1,102 @@
+{{ define "main" }}
+<div class="chapter-list">
+  {{ range .Pages.ByWeight }}
+    <div class="chapter-card">
+      <h2 class="chapter-card-title">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </h2>
+      
+      <div class="chapter-card-meta">
+        {{ if .Date }}
+        <span class="chapter-date">{{ .Date.Format "January 2, 2006" }}</span>
+        {{ end }}
+        
+        {{ with .Params.author }}
+        <span class="chapter-author">by {{ . }}</span>
+        {{ end }}
+      </div>
+      
+      <div class="chapter-card-summary">
+        {{ .Summary }}
+      </div>
+      
+      <a href="{{ .RelPermalink }}" class="read-more">Read full chapter →</a>
+    </div>
+  {{ end }}
+</div>
+
+<style>
+  .chapter-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .chapter-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .chapter-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .chapter-card-title {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .chapter-card-title a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .chapter-card-title a:hover {
+    color: #0366d6;
+  }
+  
+  .chapter-card-meta {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .chapter-author {
+    margin-left: 1rem;
+  }
+  
+  .chapter-card-summary {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  
+  .read-more {
+    display: inline-block;
+    color: #0366d6;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .read-more:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .chapter-card {
+      padding: 1rem;
+    }
+    
+    .chapter-card-title {
+      font-size: 1.5rem;
+    }
+    
+    .chapter-card-summary {
+      font-size: 0.95rem;
+    }
+  }
+</style>
+{{ end }}

@@ -1,0 +1,37 @@
+{{ $src := .Get "src" }}
+{{ $title := .Get "title" | default "Audio" }}
+{{ $autoplay := .Get "autoplay" | default false }}
+{{ $loop := .Get "loop" | default false }}
+{{ $controls := .Get "controls" | default true }}
+{{ $preload := .Get "preload" | default "metadata" }}
+{{ $class := .Get "class" | default "audio-player" }}
+
+<div class="{{ $class }}">
+  {{ with $title }}<h4>{{ . }}</h4>{{ end }}
+  <audio 
+    {{ if $controls }}controls{{ end }}
+    {{ if $autoplay }}autoplay{{ end }}
+    {{ if $loop }}loop{{ end }}
+    preload="{{ $preload }}"
+    class="responsive-audio"
+  >
+    <source src="{{ $src }}" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+<style>
+  .audio-player {
+    margin: 1rem 0;
+    width: 100%;
+  }
+  .responsive-audio {
+    width: 100%;
+    max-width: 100%;
+  }
+  @media (max-width: 768px) {
+    .audio-player {
+      margin: 0.5rem 0;
+    }
+  }
+</style>

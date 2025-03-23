@@ -1,0 +1,41 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $caption := .Get "caption" | default "" }}
+{{ $class := .Get "class" | default "responsive-image" }}
+{{ $width := .Get "width" | default "100%" }}
+{{ $height := .Get "height" | default "auto" }}
+{{ $lazy := .Get "lazy" | default true }}
+
+<figure class="image-container {{ $class }}">
+  <img 
+    src="{{ $src }}" 
+    alt="{{ $alt }}" 
+    width="{{ $width }}" 
+    height="{{ $height }}"
+    {{ if $lazy }}loading="lazy"{{ end }}
+  />
+  {{ with $caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>
+
+<style>
+  .image-container {
+    margin: 1.5rem 0;
+    text-align: center;
+  }
+  .responsive-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  .image-container figcaption {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+  @media (max-width: 768px) {
+    .image-container {
+      margin: 1rem 0;
+    }
+  }
+</style>

@@ -1,0 +1,23 @@
+<!-- Custom head content for responsive design -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Import custom styles -->
+{{ $customStyles := resources.Get "custom.scss" | css.Sass | resources.Minify }}
+<link rel="stylesheet" href="{{ $customStyles.RelPermalink }}">
+
+<!-- Preconnect to CDNs for better performance -->
+<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<!-- Add support for mobile touch events -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Add touch support for mobile navigation
+    const menuToggle = document.querySelector('.book-menu-content');
+    if (menuToggle) {
+      menuToggle.addEventListener('touchstart', function(e) {
+        // Handle touch events for mobile menu
+      }, {passive: true});
+    }
+  });
+</script>
