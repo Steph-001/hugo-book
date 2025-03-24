@@ -123,3 +123,15 @@ hugo-site/
 - update config.toml:
 [params]
   BookTheme = 'blue-night'
+
+  ## Design more broadly
+
+  
+1.Use the assets directory: Continue using your custom.scss file in the assets directory to override theme styles without modifying the original theme files.
+2.Create template overrides: You can copy any template file from the theme's layouts directory to your site's layouts directory with the same path, and Hugo will use your version instead.
+  For example: copy themes/hugo-book/layouts/_default/list.html to layouts/_default/list.html to customize it
+3.Use Hugo's partial system: Create custom partials in layouts/partials/ to override specific components.
+4.Understand the cascade:
+  - CSS in custom.scss overrides theme styles
+  - Templates in your layouts directory override theme templates
+  - The module approach you're using makes this clean and         maintainable

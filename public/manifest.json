@@ -1,6 +1,6 @@
 {
-  "name": "Educational Website",
-  "short_name": "Educational Website",
+  "name": "English Class",
+  "short_name": "English Class",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

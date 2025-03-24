@@ -50,3 +50,32 @@
     padding: 2rem 1rem !important;
   }
 }
+
+/* Fix for chapter card background color inconsistency */
+.chapter-card {
+  background-color: var(--body-background) !important;
+  border-color: var(--gray-200) !important;
+}
+
+/* Optional: Improve card appearance */
+.chapter-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.chapter-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Ensure text colors are consistent */
+.chapter-card h2,
+.chapter-card h3,
+.chapter-card a {
+  color: var(--body-font-color) !important;
+}
+
+.chapter-card p {
+  color: var(--gray-500) !important;
+}
+

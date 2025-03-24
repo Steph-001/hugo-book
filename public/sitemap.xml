@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://prem.stephanejacquet.fr/docs/aborigenes/</loc>
+    <loc>http://localhost:1313/docs/aborigenes/</loc>
   </url><url>
-    <loc>https://prem.stephanejacquet.fr/docs/brexit/</loc>
+    <loc>http://localhost:1313/docs/brexit/</loc>
   </url><url>
-    <loc>https://prem.stephanejacquet.fr/docs/digital_art/</loc>
+    <loc>http://localhost:1313/docs/digital_art/</loc>
   </url><url>
-    <loc>https://prem.stephanejacquet.fr/docs/sample-chapter/</loc>
+    <loc>http://localhost:1313/docs/sample-chapter/</loc>
   </url><url>
-    <loc>https://prem.stephanejacquet.fr/docs/sample-youtube/</loc>
+    <loc>http://localhost:1313/docs/sample-youtube/</loc>
   </url><url>
-    <loc>https://prem.stephanejacquet.fr/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://prem.stephanejacquet.fr/docs/</loc>
+    <loc>http://localhost:1313/docs/</loc>
   </url><url>
-    <loc>https://prem.stephanejacquet.fr/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://prem.stephanejacquet.fr/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
