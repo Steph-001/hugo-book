@@ -1,0 +1,5 @@
+// Custom variables to override theme defaults
+$toc-width: 12rem !default;
+$menu-width: 16rem !default; // Keep default menu width
+$container-max-width: 80rem !default;
+$mobile-breakpoint: $menu-width + 20rem + $toc-width !default;

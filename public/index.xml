@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Educational Website</title>
-    <link>//localhost:1313/</link>
+    <link>https://prem.stephanejacquet.fr/</link>
     <description>Recent content on Educational Website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://prem.stephanejacquet.fr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aborigenes</title>
-      <link>//localhost:1313/docs/aborigenes/</link>
+      <link>https://prem.stephanejacquet.fr/docs/aborigenes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/aborigenes/</guid>
-      <description></description>
+      <guid>https://prem.stephanejacquet.fr/docs/aborigenes/</guid>
+      <description>&lt;p&gt;Holà, todos!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Brexit</title>
-      <link>//localhost:1313/docs/brexit/</link>
+      <link>https://prem.stephanejacquet.fr/docs/brexit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/brexit/</guid>
-      <description></description>
+      <guid>https://prem.stephanejacquet.fr/docs/brexit/</guid>
+      <description>&lt;p&gt;Bonjour tout le monde.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Digital Art</title>
-      <link>//localhost:1313/docs/digital_art/</link>
+      <link>https://prem.stephanejacquet.fr/docs/digital_art/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/digital_art/</guid>
+      <guid>https://prem.stephanejacquet.fr/docs/digital_art/</guid>
       <description></description>
     </item>
     <item>
       <title>Sample Chapter</title>
-      <link>//localhost:1313/docs/sample-chapter/</link>
+      <link>https://prem.stephanejacquet.fr/docs/sample-chapter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/sample-chapter/</guid>
-      <description>&lt;h1 id=&#34;sample-chapter&#34;&gt;&#xA;  Sample Chapter&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#sample-chapter&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;This is a sample chapter demonstrating the various shortcodes and responsive design features implemented for your Hugo website with the hugo-book theme.&lt;/p&gt;&#xA;&lt;h2 id=&#34;audio-example&#34;&gt;&#xA;  Audio Example&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#audio-example&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s an example of the audio shortcode:&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;audio-player&#34;&gt;&#xA;  &lt;h4&gt;Sample Audio&lt;/h4&gt;&#xA;  &lt;audio &#xA;    controls&#xA;    &#xA;    &#xA;    preload=&#34;metadata&#34;&#xA;    class=&#34;responsive-audio&#34;&#xA;  &gt;&#xA;    &lt;source src=&#34;//localhost:1313/audio/sample.mp3&#34; type=&#34;audio/mpeg&#34;&gt;&#xA;    Your browser does not support the audio element.&#xA;  &lt;/audio&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;  .audio-player {&#xA;    margin: 1rem 0;&#xA;    width: 100%;&#xA;  }&#xA;  .responsive-audio {&#xA;    width: 100%;&#xA;    max-width: 100%;&#xA;  }&#xA;  @media (max-width: 768px) {&#xA;    .audio-player {&#xA;      margin: 0.5rem 0;&#xA;    }&#xA;  }&#xA;&lt;/style&gt;&#xA;&#xA;&lt;h2 id=&#34;video-example&#34;&gt;&#xA;  Video Example&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#video-example&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s an example of the video shortcode:&lt;/p&gt;</description>
+      <guid>https://prem.stephanejacquet.fr/docs/sample-chapter/</guid>
+      <description>&lt;h1 id=&#34;sample-chapter&#34;&gt;&#xA;  Sample Chapter&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#sample-chapter&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;This is a sample chapter demonstrating the various shortcodes and responsive design features implemented for your Hugo website with the hugo-book theme.&lt;/p&gt;&#xA;&lt;h2 id=&#34;audio-example&#34;&gt;&#xA;  Audio Example&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#audio-example&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s an example of the audio shortcode:&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;audio-player&#34;&gt;&#xA;  &lt;h4&gt;Sample Audio&lt;/h4&gt;&#xA;  &lt;audio &#xA;    controls&#xA;    &#xA;    &#xA;    preload=&#34;metadata&#34;&#xA;    class=&#34;responsive-audio&#34;&#xA;  &gt;&#xA;    &lt;source src=&#34;https://prem.stephanejacquet.fr/audio/sample.mp3&#34; type=&#34;audio/mpeg&#34;&gt;&#xA;    Your browser does not support the audio element.&#xA;  &lt;/audio&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;  .audio-player {&#xA;    margin: 1rem 0;&#xA;    width: 100%;&#xA;  }&#xA;  .responsive-audio {&#xA;    width: 100%;&#xA;    max-width: 100%;&#xA;  }&#xA;  @media (max-width: 768px) {&#xA;    .audio-player {&#xA;      margin: 0.5rem 0;&#xA;    }&#xA;  }&#xA;&lt;/style&gt;&#xA;&#xA;&lt;h2 id=&#34;video-example&#34;&gt;&#xA;  Video Example&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#video-example&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s an example of the video shortcode:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sample Chapter with YouTube</title>
-      <link>//localhost:1313/docs/sample-youtube/</link>
+      <link>https://prem.stephanejacquet.fr/docs/sample-youtube/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/sample-youtube/</guid>
+      <guid>https://prem.stephanejacquet.fr/docs/sample-youtube/</guid>
       <description>&lt;h1 id=&#34;sample-chapter-with-youtube&#34;&gt;&#xA;  Sample Chapter with YouTube&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#sample-chapter-with-youtube&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;This chapter demonstrates the YouTube shortcode integration with the Hugo-book theme.&lt;/p&gt;&#xA;&lt;h2 id=&#34;youtube-video-example&#34;&gt;&#xA;  YouTube Video Example&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#youtube-video-example&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s an example of the YouTube shortcode:&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;youtube-container&#34;&gt;&#xA;  &lt;h4&gt;YouTube Video&lt;/h4&gt;&#xA;  &lt;div class=&#34;responsive-iframe-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/dQw4w9WgXcQ&#34; &#xA;      frameborder=&#34;0&#34; &#xA;      allowfullscreen&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;  .youtube-container {&#xA;    margin: 1.5rem 0;&#xA;    width: 100%;&#xA;  }&#xA;  &#xA;  .responsive-iframe-container {&#xA;    position: relative;&#xA;    padding-bottom: 56.25%;  &#xA;    height: 0;&#xA;    overflow: hidden;&#xA;    max-width: 100%;&#xA;  }&#xA;  &#xA;  .responsive-iframe-container iframe {&#xA;    position: absolute;&#xA;    top: 0;&#xA;    left: 0;&#xA;    width: 100%;&#xA;    height: 100%;&#xA;    border-radius: 4px;&#xA;  }&#xA;  &#xA;  @media (max-width: 768px) {&#xA;    .youtube-container {&#xA;      margin: 1rem 0;&#xA;    }&#xA;  }&#xA;&lt;/style&gt;&#xA;&#xA;&lt;h2 id=&#34;responsive-design-for-videos&#34;&gt;&#xA;  Responsive Design for Videos&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#responsive-design-for-videos&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;The YouTube shortcode is designed to be fully responsive, adapting to different screen sizes from mobile phones to desktop computers. The video container maintains a 16:9 aspect ratio and scales appropriately on all devices.&lt;/p&gt;</description>
     </item>
   </channel>

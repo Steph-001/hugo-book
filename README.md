@@ -108,3 +108,18 @@ hugo-site/
 - Modify `config.toml` to change site settings
 - Edit `assets/custom.scss` to adjust responsive design
 - Create new content in the `content/docs/` directory
+
+## color schemes
+- create a file in `assets/themes/` (e.g. `_blue-night.scss)
+- add the mixin and root declaration:
+
+  `@mixin theme-blue-night {
+  // (paste theme code here)
+}
+
+:root {
+  @include theme-blue-night;
+}`
+- update config.toml:
+[params]
+  BookTheme = 'blue-night'

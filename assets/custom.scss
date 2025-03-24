@@ -1,22 +1,52 @@
-/* Fix left padding issue on very small screens */
-@media screen and (max-width: 480px) {
-  .book-page {
-    padding: 0.75rem !important;
-  }
-  
-  .markdown {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-  
+/* Direct TOC width override with !important flags */
+.book-toc {
+  width: 12rem !important;
+  flex: 0 0 12rem !important;
+  font-size: 0.8rem !important;
+}
+
+.book-toc-content {
+  width: 12rem !important;
+}
+
+/* Fix content area to maintain its width */
+.book-page {
+  padding-right: 12rem !important;
+}
+
+/* Ensure container doesn't constrain content */
+@media screen and (min-width: 80rem) {
   .container {
-    padding-left: 0.5rem !important;
-    padding-right: 0.5rem !important;
-    max-width: 100% !important;
-    width: 100% !important;
+    max-width: none !important;
+  }
+}
+
+/* TOC width customization for desktop */
+@media screen and (min-width: 80rem) {
+  .book-toc {
+    width: 12rem !important;
+    flex: 0 0 12rem !important;
+    font-size: 0.8rem !important;
   }
   
-  .book-menu-content {
-    padding: 0.5rem !important;
+  .book-toc-content {
+    width: 12rem !important;
+  }
+  
+  .book-page {
+    padding-right: 12rem !important;
+  }
+}
+
+/* Fix for mobile screens to ensure content is centered */
+@media screen and (max-width: 80rem) {
+  .container {
+    margin: 0 auto !important;
+    max-width: 100% !important;
+    padding: 0 1rem !important;
+  }
+  
+  .book-page {
+    padding: 2rem 1rem !important;
   }
 }

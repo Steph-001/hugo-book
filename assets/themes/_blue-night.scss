@@ -1,0 +1,27 @@
+// Blue Night Theme - A softer dark theme with blue accents
+@mixin theme-blue-night {
+  // Background and text colors
+  --body-background: #1a1f36;
+  --body-font-color: #e2e8f0;
+  
+  // Gray shades for UI elements
+  --gray-100: #2d3748;
+  --gray-200: #4a5568;
+  --gray-500: #a0aec0;
+  
+  // Link colors
+  --color-link: #63b3ed;
+  --color-visited-link: #b794f4;
+  
+  // Icon filter for dark background
+  --icon-filter: brightness(0) invert(1);
+  
+  // Hint colors
+  --hint-color-info: #63b3ed;
+  --hint-color-warning: #f6ad55;
+  --hint-color-danger: #fc8181;
+}
+
+:root {
+  @include theme-blue-night;
+}

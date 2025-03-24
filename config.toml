@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://prem.stephanejacquet.fr/"
 languageCode = "en-us"
 title = "Educational Website"
 
@@ -13,7 +13,7 @@ title = "Educational Website"
 # Book configuration
 [params]
   # (Optional, default light) Sets color theme: light, dark or auto.
-  BookTheme = 'light'
+  BookTheme = 'blue-night'
 
   # (Optional, default true) Controls table of contents visibility on right side of pages.
   BookToC = true

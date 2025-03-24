@@ -1,0 +1,27 @@
+// Forest Theme - A nature-inspired dark theme
+@mixin theme-forest {
+  // Background and text colors
+  --body-background: #1e2a23;
+  --body-font-color: #e0e8e4;
+  
+  // Gray shades for UI elements
+  --gray-100: #2d3a33;
+  --gray-200: #3d4a43;
+  --gray-500: #8fa396;
+  
+  // Link colors
+  --color-link: #7ac28f;
+  --color-visited-link: #a0d6b3;
+  
+  // Icon filter for dark background
+  --icon-filter: brightness(0) invert(0.9) sepia(0.2) hue-rotate(80deg);
+  
+  // Hint colors
+  --hint-color-info: #7ac28f;
+  --hint-color-warning: #e2c07a;
+  --hint-color-danger: #e27a7a;
+}
+
+:root {
+  @include theme-blue-night;
+}

@@ -1,0 +1,27 @@
+// Sepia Theme - A warm, paper-like dark theme
+@mixin theme-sepia {
+  // Background and text colors
+  --body-background: #2d2418;
+  --body-font-color: #e8e0d0;
+  
+  // Gray shades for UI elements
+  --gray-100: #3d3424;
+  --gray-200: #4d4430;
+  --gray-500: #a39b8c;
+  
+  // Link colors
+  --color-link: #e6c07b;
+  --color-visited-link: #c19a5b;
+  
+  // Icon filter for dark background
+  --icon-filter: brightness(0) invert(0.9) sepia(0.3);
+  
+  // Hint colors
+  --hint-color-info: #7eb6ad;
+  --hint-color-warning: #e6c07b;
+  --hint-color-danger: #e06c75;
+}
+
+:root {
+  @include theme-blue-night;
+}

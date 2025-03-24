@@ -1,6 +1,7 @@
 <!-- Custom head content for responsive design -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
 <!-- Import custom styles -->
 {{ $customStyles := resources.Get "custom.scss" | css.Sass | resources.Minify }}
 <link rel="stylesheet" href="{{ $customStyles.RelPermalink }}">
