@@ -15,8 +15,14 @@
     preload="{{ $preload }}"
     class="responsive-audio"
   >
-    <source src="{{ $src }}" type="audio/mpeg">
-    Your browser does not support the audio element.
+    <!-- MP3 for most browsers -->
+    <source src="{{ $src | relURL }}" type="audio/mpeg">
+    <!-- OGG for Firefox and Chrome -->
+    {{ with .Get "ogg-src" }}
+    <source src="{{ . | relURL }}" type="audio/ogg">
+    {{ end }}
+    <!-- Fallback message -->
+    <p>Your browser doesn't support HTML5 audio. Here is a <a href="{{ $src | relURL }}">link to the audio</a> instead.</p>
   </audio>
 </div>
 
