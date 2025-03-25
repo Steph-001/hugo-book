@@ -135,3 +135,16 @@ hugo-site/
   - CSS in custom.scss overrides theme styles
   - Templates in your layouts directory override theme templates
   - The module approach you're using makes this clean and         maintainable
+
+
+  VIDEOS
+  - Ensure videos are encoded in widely supported formats
+
+    - MP4 with H.264 video codec
+    `ffmpeg -i input.video -c:v libx264 -preset medium -crf 23 -c:a aac -b:a 128k output.mp4`
+
+    - WebM as a fallback
+    `ffmpeg -i input.video -c:v libvpx-vp9 -crf 30 -b:v 0 -b:a 128k -c:a libopus output.webm`
+
+
+
