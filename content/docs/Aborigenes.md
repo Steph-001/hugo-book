@@ -2,7 +2,7 @@
 title: "Aborigenes"
 weight: 1
 # bookFlatSection: false
-# bookToc: true
+bookToc: true
 # bookHidden: false
 # bookCollapseSection: false
 # bookComments: false
@@ -11,4 +11,18 @@ weight: 1
 
 Holà, todos!
 
-popo
+#popo
+popopo
+
+{{< video src="/video/intro.mp4" title="Introduction">}}
+
+## mlmlml
+kjjjlkjlkj
+{{< image src="/images/damian.jpeg" alt="Sample Image" caption="This is a sample image with a caption" >}}
+
+
+
+{{< audio src="/audio/sample.mp3" title="Sample Audio" >}}
+
+
+

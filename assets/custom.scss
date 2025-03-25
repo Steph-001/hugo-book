@@ -1,4 +1,4 @@
-/* Direct TOC width override with !important flags */
+/* TOC width customization */
 .book-toc {
   width: 12rem !important;
   flex: 0 0 12rem !important;
@@ -12,29 +12,13 @@
 /* Fix content area to maintain its width */
 .book-page {
   padding-right: 12rem !important;
+  background-color: var(--content-background) !important; /* Apply lighter background to middle section */
 }
 
-/* Ensure container doesn't constrain content */
+/* Responsive adjustments */
 @media screen and (min-width: 80rem) {
   .container {
     max-width: none !important;
-  }
-}
-
-/* TOC width customization for desktop */
-@media screen and (min-width: 80rem) {
-  .book-toc {
-    width: 12rem !important;
-    flex: 0 0 12rem !important;
-    font-size: 0.8rem !important;
-  }
-  
-  .book-toc-content {
-    width: 12rem !important;
-  }
-  
-  .book-page {
-    padding-right: 12rem !important;
   }
 }
 
@@ -48,17 +32,14 @@
   
   .book-page {
     padding: 2rem 1rem !important;
+    background-color: var(--content-background) !important; /* Maintain lighter background on mobile */
   }
 }
 
-/* Fix for chapter card background color inconsistency */
+/* Chapter card styling */
 .chapter-card {
-  background-color: var(--body-background) !important;
+  background-color: var(--content-background) !important; /* Use content background for cards */
   border-color: var(--gray-200) !important;
-}
-
-/* Optional: Improve card appearance */
-.chapter-card {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
@@ -79,3 +60,36 @@
   color: var(--gray-500) !important;
 }
 
+/* Comprehensive fix for central section padding and centering on all screen sizes */
+.book-page {
+  padding: 2rem;
+}
+
+@media (min-width: 80rem) {
+  .book-page {
+    padding: 2rem 4rem;
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 100rem) {
+  .book-page {
+    padding: 2rem 6rem;
+    max-width: 90rem;
+    margin: 0 auto;
+  }
+  
+  .book-page .markdown {
+    max-width: 70rem;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 120rem) {
+  .book-page {
+    padding: 2rem 8rem;
+    max-width: 100rem;
+    margin: 0 auto;
+  }
+}

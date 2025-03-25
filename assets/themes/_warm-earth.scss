@@ -1,0 +1,31 @@
+// Warm Earth Theme - A natural theme with earthy neutral tones
+@mixin theme-warm-earth {
+  // Background and text colors
+  --body-background: #504B38;
+  --body-font-color: #F8F3D9;
+  
+  // Middle section lighter background
+  --content-background: #605A45;
+  
+  // Gray shades for UI elements
+  --gray-100: #706952;
+  --gray-200: #8A8363;
+  --gray-500: #B9B28A;
+  
+  // Link colors
+  --color-link: #EBE5C2;
+  --color-visited-link: #B9B28A;
+  
+  // Icon filter for dark background
+  --icon-filter: brightness(0) invert(0.9) sepia(0.2) hue-rotate(30deg);
+  
+  // Hint colors
+  --hint-color-info: #EBE5C2;
+  --hint-color-warning: #F8F3D9;
+  --hint-color-danger: #E5A188;
+}
+
+:root {
+  @include theme-warm-earth;
+}
+

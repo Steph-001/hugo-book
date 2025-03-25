@@ -13,7 +13,7 @@ title = "English Class"
 # Book configuration
 [params]
   # (Optional, default light) Sets color theme: light, dark or auto.
-  BookTheme = 'sepia'
+  BookTheme = 'cool-sage'
 
   # (Optional, default true) Controls table of contents visibility on right side of pages.
   BookToC = true
@@ -29,7 +29,7 @@ title = "English Class"
 
   # Enable responsive design features
   [params.BookServiceWorker]
-    enable = true
+    enable = false
 
 # Enable HTML in markdown
 [markup.goldmark.renderer]

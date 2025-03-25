@@ -1,0 +1,31 @@
+// Neon Nights Theme - A bold, cyberpunk-inspired color scheme
+@mixin theme-neon {
+  // Background and text colors
+  --body-background: #0f0f1b;
+  --body-font-color: #e8f0ff;
+  
+  // Middle section lighter background
+  --content-background: #1a1a2e;
+  
+  // Gray shades for UI elements
+  --gray-100: #252542;
+  --gray-200: #323255;
+  --gray-500: #7676a7;
+  
+  // Link colors
+  --color-link: #00f2ff;
+  --color-visited-link: #ff00e4;
+  
+  // Icon filter for dark background
+  --icon-filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);
+  
+  // Hint colors
+  --hint-color-info: #00f2ff;
+  --hint-color-warning: #ffdf00;
+  --hint-color-danger: #ff2e6c;
+}
+
+:root {
+  @include theme-neon;
+}
+

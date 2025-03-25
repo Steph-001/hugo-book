@@ -1,0 +1,31 @@
+// Candy Pop Theme - A playful, bright color scheme inspired by candy and pop art
+@mixin theme-candy-pop {
+  // Background and text colors
+  --body-background: #2b0e35;
+  --body-font-color: #ffffff;
+  
+  // Middle section lighter background
+  --content-background: #3d1a4a;
+  
+  // Gray shades for UI elements
+  --gray-100: #4e2960;
+  --gray-200: #5f3a71;
+  --gray-500: #9d6fb8;
+  
+  // Link colors
+  --color-link: #ff47b6;
+  --color-visited-link: #47c9ff;
+  
+  // Icon filter for dark background
+  --icon-filter: brightness(0) invert(1) sepia(0.5) hue-rotate(270deg);
+  
+  // Hint colors
+  --hint-color-info: #47c9ff;
+  --hint-color-warning: #ffde54;
+  --hint-color-danger: #ff5c8d;
+}
+
+:root {
+  @include theme-candy-pop;
+}
+
