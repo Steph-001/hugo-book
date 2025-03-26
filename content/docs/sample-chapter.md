@@ -17,7 +17,7 @@ Here's an example of the audio shortcode:
 
 Here's an example of the video shortcode:
 
-{{< video src="/video/sample.mp4" title="Sample Video" >}}
+{{< video src="/video/logs.mp4" title="Sample Video" >}}
 
 ## Image Example
 

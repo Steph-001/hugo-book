@@ -11,7 +11,7 @@ This chapter demonstrates the YouTube shortcode integration with the Hugo-book t
 
 Here's an example of the YouTube shortcode:
 
-{{< youtube "dQw4w9WgXcQ" "Sample YouTube Video" >}}
+{{< youtube "MYcZ6s3z1jg" "Sample YouTube Video" >}}
 
 
 ## Responsive Design for Videos
@@ -22,10 +22,10 @@ The YouTube shortcode is designed to be fully responsive, adapting to different 
 
 You can include multiple videos in a single chapter:
 
-{{< youtube "dQw4w9WgXcQ" "Sample YouTube Video" >}}
+{{< youtube "6HFQy9_rY58" "Sample YouTube Video" >}}
 
 
-{{< youtube "dQw4w9WgXcQ" "Sample YouTube Video" >}}
+{{< youtube "zbkLmwLzU6g" "Sample YouTube Video" >}}
 
 ## Combining with Other Content
 
